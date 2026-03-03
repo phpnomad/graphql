@@ -1,0 +1,29 @@
+{
+  "name": "phpnomad/graphql",
+  "description": "Abstract GraphQL interfaces for the PHPNomad ecosystem",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/phpnomad/core",
+  "autoload": {
+    "psr-4": {
+      "PHPNomad\\GraphQL\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PHPNomad\\GraphQL\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "phpnomad/http": "^1.1"
+  },
+  "require-dev": {
+    "phpnomad/tests": "^0.1.0 || ^0.3.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "phpstan/extension-installer": true
+    }
+  }
+}
